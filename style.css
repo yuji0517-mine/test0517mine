@@ -31,28 +31,17 @@ UI {
   width: 128px;
 }
 
-.keyframe1{
-2
-  animation-name: anim_v;
-3
+.anim-box.fadein.is-animated {
+  animation: fadeIn 0.7s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }
-4
  
-5
-@keyframes anim_v {
-6
+@keyframes fadeIn {
   0% {
-7
-    transform: translate(0, 0px);
-8
+    opacity: 0;
   }
-9
   100% {
-10
-    transform: translate(0, 60px);
-11
+    opacity: 1;
   }
-12
 }
 
 a{
