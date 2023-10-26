@@ -22,6 +22,28 @@ UI {
  
  }
 
+
+.animation{
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+  width: 128px;
+}
+
+.keyframe1{
+  animation-name: anim_v;
+}
+
+@keyframes anim_v {
+  0% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, 60px);
+  }
+}
+
 a{
 
   color: #fff;
