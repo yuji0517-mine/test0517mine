@@ -32,16 +32,27 @@ UI {
 }
 
 .keyframe1{
+2
   animation-name: anim_v;
+3
 }
-
+4
+ 
+5
 @keyframes anim_v {
+6
   0% {
+7
     transform: translate(0, 0px);
+8
   }
+9
   100% {
+10
     transform: translate(0, 60px);
+11
   }
+12
 }
 
 a{
